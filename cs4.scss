@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    padding:0px;
+    margin:0px;
+}
+ul,li,button,p,div{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+}
+.header{
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: fixed;
+    padding:0px 40px;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 99;
+
+    .cate_menu{
+        display: flex;
+        gap: 20px;
+        font-size: 16px;
+    }
+    .logo_section{
+        position: absolute;
+        top: 17px;
+        left: calc(50% - 100px);
+        font-weight: 40px;
+        font-size: 16px;
+    }
+
+    .my_menu{
+        display: flex;
+        gap: 20px;
+        font-size: 16px;
+        font-weight: 40px;
+    }
+}
